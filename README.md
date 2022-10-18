@@ -13,6 +13,12 @@ or add `--skip-smudge` flag to exclude LFS files on clone
 $ git lfs install --skip-smudge
 ```
 
+## Tracking
+```sh
+$ git lfs track "*.psd" "*.jpeg" "*.jpg" "*.png"
+$ git add .gitattributes
+```
+
 ## Cloning
 ```sh
 $ git clone git@github.com:dev-sareno/git-lfs.git
